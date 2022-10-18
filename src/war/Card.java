@@ -2,7 +2,7 @@ package war;
 
 public class Card {
 	
-//go over getters/setters, field variables, constructor for Card, and one method (describe)	
+//go over getters/setters, field variables, constructor for Card (built-in advance)	
 
 	private String name;
 	private int value;
