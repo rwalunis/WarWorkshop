@@ -29,9 +29,9 @@ public class App {
 			}
 		}
 //4. How can we make sure that each Player was successfully given a hand of cards?		
-//Create and deploy describe method from player class
+//Create and deploy describeCard method in Card class and then describePlayer method from player class
 		System.out.println(player1.getHand()); //this prints out the memory location of the card! not what we want
-		player1.describe(); //this prints out the actual value of the card from a player's hand
+		player1.describePlayer(); //this prints out the actual value of the card from a player's hand
 
 	}
 

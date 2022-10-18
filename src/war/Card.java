@@ -2,7 +2,8 @@ package war;
 
 public class Card {
 	
-//go over getters/setters, field variables, constructor for Card, and one method (describe)	
+//go over getters/setters, field variables, constructor for Card (built-in-advance)
+//create describeCard method LAST LIVE	
 
 	private String name;
 	private int value;
@@ -55,7 +56,7 @@ public class Card {
 		this.value = value;
 	}
 
-	public void describe() {
+	public void describeCard() {
 		System.out.println("The name of card is: " + name + "," + " Card value: " + value);
 	}
 

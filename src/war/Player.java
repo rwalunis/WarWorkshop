@@ -6,7 +6,7 @@ import java.util.List;
 public class Player {
 
 //Have built-out in advance: Player fields, getters/setters, constructor
-//Build out live: drawCardIntoHand and describe (at very end)	
+//Build out live: 1: drawCardIntoHand and 2: describe (at very end after creating createCard method in CARD class live)	
 
 	private String name;
 	private int score;
@@ -23,10 +23,10 @@ public class Player {
 		hand.add(deck.drawCardFromDeck());
 	}
 
-	public void describe() {
+	public void describePlayer() {
 		System.out.println("Player name: " + name);
 		for (Card card : hand) {
-			card.describe();
+			card.describeCard();
 		}
 	}
 
